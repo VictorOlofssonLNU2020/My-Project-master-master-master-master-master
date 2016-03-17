@@ -58,6 +58,11 @@ body {
 	background-repeat: no-repeat;
 }
 
+.panel {
+	background: transparent;
+}
+
+
 /************************************************************/
 
 /*********************** BUTTONS *******************************/
@@ -89,8 +94,7 @@ body {
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size: cover;
-	border: 1px solid #fff;
-	
+	border: none;
 	
 }
 
@@ -164,6 +168,10 @@ a:active {
 /**************************************************************************/
 
 /**************************** NAVBAR **************************************/
+.navbar {
+	border: none;
+	background: transparent;
+}
 
 .dropdown {
 	margin-top: -0%;
